@@ -107,7 +107,7 @@ Mohon kepada Teknisi agar segera diperbaiki`;
     
     // API untuk koneksi ke bot telegram
     const token = '7820467558:AAGD_45C5-cieaOgA8n8XSoltrJsJKlW2iU';
-    const chat_id = '-4906704883';
+    const chat_id = '-1002771989872';
 
       const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(pesan)}`;
 
