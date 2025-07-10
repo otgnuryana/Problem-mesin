@@ -115,7 +115,9 @@ Mohon kepada Teknisi agar segera diperbaiki`;
         .then(response => response.json())
         .then(data => {
           alert('Pesan berhasil dikirim!');
-          console.log(data);
+        // reset form dan judul
+          document.getElementById("formProblem").reset();
+          document.getElementById("judulProblem").innerHTML = "Hi,<br>What's Your Problem?";
         })
         .catch(error => {
           alert('Gagal kirim pesan.');
